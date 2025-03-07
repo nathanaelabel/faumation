@@ -1,21 +1,43 @@
-# Faumation
+# Faumation  
 
-> Assesment for Learning 4 Internet of Things 2021 - 2022 Genap (Semester 4) Informatika Universitas Ciputra Surabaya.
+**Prototype for a Water Level Monitoring System and Water Temperature Heater with Faucet Automation based on Internet of Things (IoT)** for residential water storage.  
 
-### 👨‍💻👩‍💻 Tentang Pengembang
+---
 
-Kelompok 2:
+## 🧑‍💻👩‍💻 Developed for  
+Assessment for Learning 4 – **Internet of Things** (2021/2022, Even Semester) at **Informatics, Universitas Ciputra Surabaya**.  
 
-- 0706012010013 - Nur Azizah
-- 0706012010029 - Nathanael Abel Arianto
-- 0706012010039 - Probo Krishnacahya
-- 0706012010055 - Haning Galih Rani Kumbara
+---
 
-### 📱 Tentang Proyek
+## 📖 About the Project  
+**Faumation** is a project utilizing **Internet of Things (IoT)** technology to develop a **Water Level Monitoring System** and **Water Heater Automation** for residential water storage. The system is powered by an **Arduino Uno R3 V2.0** module and includes:  
+- **Automatic faucet control** based on water levels:  
+  - When the water level reaches **90%**, the faucet automatically turns off.  
+  - When the water level drops to **10%**, the faucet turns on again.  
+  - Users can manually control the faucet when water levels are between **11%-89%**.  
+- **Water temperature control**:  
+  - If the water temperature is below **20°C**, the heater turns on.  
+  - If the water temperature exceeds **40°C**, the heater turns off.  
+  - Users can manually control the heater when the water temperature is between **21°C-39°C**.  
 
-Faumation adalah proyek yang dibuat menggunakan teknologi Internet of Things dengan topik "Sistem Pemantauan Ketinggian Air dan Pemanas Temperatur Air dengan Otomasi Keran Berbasis Internet of Things Melalui Web Menggunakan Modul Arduino Uno R3 V2.0 Pada Penampungan Air Warga". Faumation tersedia dalam bentuk simulasi [Proteus](https://www.labcenter.com/) maupun simulasi dalam bentuk [Aplikasi Web](https://archotech.xyz/) yang dapat diakses melalui Web Browser.
+**Faumation** is available as a simulation on **Proteus** and also accessible via a **Web Application** through your browser.  
 
-Manfaat penggunaan Faumation:
+---
 
-- [x] Memudahkan warga dalam proses pengisian air pada tempat penampungan air mandi yang mana keran airnya dapat dijalankan secara otomatis dengan deteksi jarak batas atas (mendekati penuh) jika menyentuh 90% dari sisa air, maka keran air Off dan batas bawahnya (mendekati habis) jika menyentuh 10% dari sisa air, maka keran air dinyalakan. Selain itu, juga tersedia opsi pengisian yang dapat dikendalikan secara manual jika warga membutuhkan mengisi air meskipun dalam kondisi air masih belum hampir habis (sedang berada diantara 11% s.d. 89%). Alhasil, fitur pengisian air ini dapat menghemat waktu dan tenaga sekaligus mencegah pemakaian air mandi yang terbuang sia-sia karena melewati kapasitas tempat pengisian air ketika sedang melakukan pengisian air.
-- [x] Memberikan kenyamanan bagi warga dalam menyesuaikan temperatur air berdasarkan kebutuhan, yang mana tersedia pendeteksi temperatur air yang dapat dijalankan secara otomatis (jika temperatur < 20&deg;C, maka pemanas air akan On sehingga warga bisa mendapatkan air dengan temperatur hangat dan ketika temperatur > 40&deg;C, maka pemanas air akan Off). Selain itu, jika warga menginginkan menghangatkan temperatur air ketika sedang berada diantara 21&deg;C s.d. 39&deg;C, maka warga dapat menggunakan opsi pengendalian pemanas air secara manual untuk menghangatkan air.
+## 🛠️ Technologies Used  
+- **Internet of Things (IoT)**  
+- **Arduino Uno R3 V2.0**  
+- **Web Application**  
+- **Proteus Simulation**  
+
+---
+
+## 🚀 Features  
+- **Automatic faucet control** based on water levels (90%-10%)  
+- **Automatic water heater control** based on temperature (below 20°C, above 40°C)  
+- **Manual control** options for both faucet and water heater  
+- **Simulation available in Proteus** and **Web Application** for easy access  
+
+---
+
+📌 **Note:** This project was built for academic purposes and is not actively developed.
